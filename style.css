@@ -1,0 +1,114 @@
+body {
+margin: 0;
+
+background-image: url(images/vecteezy_game-background-with-gamepad-joystick-geometric-pattern-and_47892312.jpg);
+}
+
+
+header{color: black;
+    background-color: skyblue;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border: 0.2em solid black;
+    word-spacing: 2em;
+    
+    
+}
+nav{
+text-align: center;
+}
+
+
+
+nav a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: monospace;
+    border: 0.1em solid skyblue;
+    
+    
+}
+
+nav a:hover{color: rgb(255, 255, 255);
+border-color: black;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;   
+    gap: 10em;
+    margin-right: 50em;
+}
+
+nav ul li:first-of-type{
+    margin-right: auto;
+    
+}
+
+
+p {color: rgb(0, 0, 0);}
+
+
+
+main p a{
+    color:black;
+    background-color: white;
+    text-decoration: solid;
+    transition: background 2000ms ease
+    
+}
+
+main p a:hover{
+    
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 0.2em;
+    border-color: black;
+    background-color: yellow;
+    
+}
+main{
+    color: white;
+}
+p{
+    color: white;
+}
+ul.aflevering1{
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    color: white;
+    padding: 0.2em 0.4em;
+    justify-content: flex-start;
+    margin-bottom: 10em;
+    display: flex; 
+    
+}
+
+ul.aflevering2{
+    background-color: rgb(118, 38, 38);
+}
+
+ul.aflevering3{
+    background-color: blue;
+}
+
+main img{
+    transition-duration: 3s;
+}
+main img:hover{
+    transform: rotate(360deg);
+}
+
+main ul p{
+}
+
+
+footer{
+    color: white;
+}
+
